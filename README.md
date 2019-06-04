@@ -1,6 +1,10 @@
 # spider-resource
 
-## Project setup
+PWAのおべんきょ。
+
+## Usage
+
+### Project setup
 ```
 npm install
 ```
