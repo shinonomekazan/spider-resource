@@ -2,7 +2,11 @@
   <div class="resource_search">
     resource/search
     <ul>
-      <li><router-link :to="{ name: 'resourceDetail', params: {id: '1'}}">Contact</router-link></li>
+      <li>
+        <router-link :to="{ name: 'resourceDetail', params: { id: '1' } }"
+          >Contact</router-link
+        >
+      </li>
     </ul>
   </div>
 </template>
@@ -11,8 +15,7 @@
 import { Component, Vue } from "vue-property-decorator";
 
 @Component({
-  components: {
-  }
+  components: {}
 })
 export default class ResourceSearch extends Vue {}
 </script>

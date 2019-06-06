@@ -8,8 +8,7 @@
 import { Component, Vue, Prop } from "vue-property-decorator";
 
 @Component({
-  components: {
-  }
+  components: {}
 })
 export default class ResourceContact extends Vue {
   @Prop() id!: string;
