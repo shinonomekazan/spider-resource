@@ -2,7 +2,7 @@
   <div class="my_detail">
     my/detail
     <ul>
-      <li><router-link :to="{ name: 'myEdit'}">Contact</router-link></li>
+      <li><router-link :to="{ name: 'myEdit' }">Contact</router-link></li>
     </ul>
   </div>
 </template>
@@ -11,8 +11,7 @@
 import { Component, Vue } from "vue-property-decorator";
 
 @Component({
-  components: {
-  }
+  components: {}
 })
 export default class MyDetail extends Vue {}
 </script>

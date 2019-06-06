@@ -16,41 +16,34 @@ export default new Router({
     {
       path: "/about",
       name: "about",
-      component: () =>
-        import("./views/About.vue")
+      component: () => import("./views/About.vue")
     },
     {
       path: "/my/edit",
       name: "myEdit",
-      component: () =>
-        import("./views/my/Edit.vue")
+      component: () => import("./views/my/Edit.vue")
     },
     {
       path: "/my/",
       name: "myDetail",
-      component: () =>
-        import("./views/my/Detail.vue")
+      component: () => import("./views/my/Detail.vue")
     },
     {
       path: "/resrouces/",
       name: "resourceSearch",
-      component: () =>
-        import("./views/resource/Search.vue")
+      component: () => import("./views/resource/Search.vue")
     },
     {
       path: "/resrouces/:id/contact",
       name: "resourceContact",
       props: true,
-      component: () =>
-        import("./views/resource/Contact.vue")
+      component: () => import("./views/resource/Contact.vue")
     },
     {
       path: "/resrouces/:id",
       name: "resourceDetail",
       props: true,
-      component: () =>
-        import("./views/resource/Detail.vue")
+      component: () => import("./views/resource/Detail.vue")
     }
-
   ]
 });
