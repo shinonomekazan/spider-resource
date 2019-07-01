@@ -3,8 +3,8 @@
     resource/search
     <ul>
       <li>
-        <router-link :to="{ name: 'resourceDetail', params: { id: '1' } }"
-          >Contact</router-link
+        <router-link :to="{ name: 'resourceDetail', params: { id: 1 } }"
+          >detail</router-link
         >
       </li>
     </ul>

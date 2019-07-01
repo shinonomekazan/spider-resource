@@ -29,18 +29,18 @@ export default new Router({
       component: () => import("./views/my/Detail.vue")
     },
     {
-      path: "/resrouces/",
+      path: "/resources/",
       name: "resourceSearch",
       component: () => import("./views/resource/Search.vue")
     },
     {
-      path: "/resrouces/:id/contact",
+      path: "/resources/:id/contact",
       name: "resourceContact",
       props: true,
       component: () => import("./views/resource/Contact.vue")
     },
     {
-      path: "/resrouces/:id",
+      path: "/resources/:id",
       name: "resourceDetail",
       props: true,
       component: () => import("./views/resource/Detail.vue")
